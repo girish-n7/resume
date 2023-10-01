@@ -1,5 +1,6 @@
 html {
   background-color: whitesmoke;
+  background-color: #caddf7;
 }
 
 body {
@@ -13,12 +14,14 @@ body {
   margin: 0 auto 50px auto;
   text-align: justify;
   scroll-behavior: smooth;
+  background-color: #caddf7;
 }
 
 * {
   margin: 10px 0 5px 0;
   line-height: normal;
   box-sizing: border-box;
+  background-color: #eeedf8;
 }
 
 a {
@@ -44,8 +47,8 @@ hr {
   float: left;
   text-align: center;
   padding: 20px 0;
-  border-radius: 5px;
-  box-shadow: 0 0 4px 0 grey;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px 1px grey;
   position: sticky;
   top: 20px;
 }
@@ -79,15 +82,22 @@ hr {
   width: 78%;
   float: right;
   padding: 20px 40px 80px 40px;
-  border-radius: 5px;
-  box-shadow: 0 0 4px 0 grey;
+  border-radius: 10px;
+  box-shadow: 0 3px 5px 1px grey;
 }
 
 .project--container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project--card {
+  width: 48%;
   margin: 15px 0;
   padding: 5px 20px 15px 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 3px 0 grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px grey;
 }
 
 .tech {
