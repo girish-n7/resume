@@ -26,7 +26,18 @@ body {
 
 a {
   text-decoration: none;
+  background-color: #afcef9;
   color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+
+a:hover {
+  background-color: #eeedf8;
+  outline: 1px solid blue;
+  transition: 0.2s;
 }
 
 hr {
@@ -54,7 +65,7 @@ hr {
 }
 
 .name--head {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 0;
 }
 
@@ -70,11 +81,6 @@ hr {
   align-items: center;
   justify-content: space-evenly;
   font-size: 0.9rem;
-}
-
-.head--content {
-  padding: 10px 15px;
-  border: 1px solid black;
 }
 
 /* body */
